@@ -1,0 +1,15 @@
+/Users/robbeatty/repos/bioinformatics_DNA_messages/main/bin/Debug/net7.0/main
+/Users/robbeatty/repos/bioinformatics_DNA_messages/main/bin/Debug/net7.0/main.deps.json
+/Users/robbeatty/repos/bioinformatics_DNA_messages/main/bin/Debug/net7.0/main.runtimeconfig.json
+/Users/robbeatty/repos/bioinformatics_DNA_messages/main/bin/Debug/net7.0/main.dll
+/Users/robbeatty/repos/bioinformatics_DNA_messages/main/bin/Debug/net7.0/main.pdb
+/Users/robbeatty/repos/bioinformatics_DNA_messages/main/obj/Debug/net7.0/main.csproj.AssemblyReference.cache
+/Users/robbeatty/repos/bioinformatics_DNA_messages/main/obj/Debug/net7.0/main.GeneratedMSBuildEditorConfig.editorconfig
+/Users/robbeatty/repos/bioinformatics_DNA_messages/main/obj/Debug/net7.0/main.AssemblyInfoInputs.cache
+/Users/robbeatty/repos/bioinformatics_DNA_messages/main/obj/Debug/net7.0/main.AssemblyInfo.cs
+/Users/robbeatty/repos/bioinformatics_DNA_messages/main/obj/Debug/net7.0/main.csproj.CoreCompileInputs.cache
+/Users/robbeatty/repos/bioinformatics_DNA_messages/main/obj/Debug/net7.0/main.dll
+/Users/robbeatty/repos/bioinformatics_DNA_messages/main/obj/Debug/net7.0/refint/main.dll
+/Users/robbeatty/repos/bioinformatics_DNA_messages/main/obj/Debug/net7.0/main.pdb
+/Users/robbeatty/repos/bioinformatics_DNA_messages/main/obj/Debug/net7.0/main.genruntimeconfig.cache
+/Users/robbeatty/repos/bioinformatics_DNA_messages/main/obj/Debug/net7.0/ref/main.dll
