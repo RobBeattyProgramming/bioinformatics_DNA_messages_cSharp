@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/robbeatty/repos/bioinformatics_DNA_messages/main/main.csproj",
+      "projectUniqueName": "/Users/robbeatty/Desktop/repos/bioinformatics_DNA_messages/main/main.csproj",
       "projectName": "main",
-      "projectPath": "/Users/robbeatty/repos/bioinformatics_DNA_messages/main/main.csproj",
+      "projectPath": "/Users/robbeatty/Desktop/repos/bioinformatics_DNA_messages/main/main.csproj",
       "packagesPath": "/Users/robbeatty/.nuget/packages/",
-      "outputPath": "/Users/robbeatty/repos/bioinformatics_DNA_messages/main/obj/",
+      "outputPath": "/Users/robbeatty/Desktop/repos/bioinformatics_DNA_messages/main/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/robbeatty/.nuget/NuGet/NuGet.Config"
