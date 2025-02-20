@@ -9,37 +9,52 @@ List<string> fullKmerList = new List<string>();
 
 while (count < dnaLength - kmer + 1)
 {
-    //Console.WriteLine(vibrioCholeraeSegment.Substring(count, kmer));
     fullKmerList.Add(vibrioCholeraeSegment.Substring(count, kmer));
 
     count++;
 }
 
-int indexCount = (dnaLength / kmer);
-int test = (dnaLength / kmer) + 30;
-string[,] countedKmerList = new string[test, 2];
 
+string[,] countedKmerList = new string[count, 2];
 
-for (int i = 0; i < indexCount; i++)
+for (int countedListLocation = 0; countedListLocation < count; countedListLocation++)
 {
-    bool containsSegment = false; 
+    bool doesntContainKmer = true;
+    int repetitionCount = 0;
 
-    for (int y = 0; y < indexCount; y++)
+    //checks for repeitiion
+    for (int fullListSegment = 0; fullListSegment < count; fullListSegment++)
     {
-        if (countedKmerList[y, 0] == fullKmerList[i])
+        if (countedKmerList[countedListLocation, 0] == fullKmerList[fullListSegment])
         {
-            containsSegment = true;
+            doesntContainKmer = false;
         }
     }
 
-    if (containsSegment == false)
+    //if not already in list, kmer is iterated through full list to count how many times it is repeated
+    if (doesntContainKmer == true) 
     {
-        countedKmerList[i, 0] = fullKmerList[i];
-    } 
+        foreach(string segment in fullKmerList)
+        {
+            if (segment == countedKmerList[countedListLocation, 0])
+            {
+                Console.WriteLine("yipee!");
+            }
+        }
+        
+        countedKmerList[countedListLocation, 0] = fullKmerList[countedListLocation];
+        countedKmerList[countedListLocation, 1] = repetitionCount.ToString();
+    }
 }
 
+
 //Test run
-for(int z = 0; z < indexCount; z++)
+for(int z = 0; z < count; z++)
 {
     Console.WriteLine(countedKmerList[z, 0]);
-}
+    Console.WriteLine(countedKmerList[z, 1]);
+} 
+
+
+
+
