@@ -34,15 +34,17 @@ for (int countedListLocation = 0; countedListLocation < count; countedListLocati
     //if not already in list, kmer is iterated through full list to count how many times it is repeated
     if (doesntContainKmer == true) 
     {
+        countedKmerList[countedListLocation, 0] = fullKmerList[countedListLocation];
+
         foreach(string segment in fullKmerList)
         {
             if (segment == countedKmerList[countedListLocation, 0])
             {
-                Console.WriteLine("yipee!");
+                repetitionCount++;
             }
         }
         
-        countedKmerList[countedListLocation, 0] = fullKmerList[countedListLocation];
+        
         countedKmerList[countedListLocation, 1] = repetitionCount.ToString();
     }
 }
@@ -54,7 +56,6 @@ for(int z = 0; z < count; z++)
     Console.WriteLine(countedKmerList[z, 0]);
     Console.WriteLine(countedKmerList[z, 1]);
 } 
-
 
 
 
